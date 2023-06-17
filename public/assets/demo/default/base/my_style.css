@@ -1,0 +1,53 @@
+/*Inserindo novo logo*/
+.bitcoin-logo {
+    width: 100px;
+    height: 100px;
+}
+
+/*Formatando título do formulário*/
+.m-login__title {
+    letter-spacing: 0.1ch;
+    text-transform: uppercase;
+}
+
+/*Formatando inputs do formulário*/
+.m-login.m-login--2 .m-login__wrapper .m-login__container .m-login__form .m-form__group .form-control {
+    padding: 2rem;
+    background-color: #fff;
+}
+
+/*Tirando a sombra do botão*/
+.btn.btn-focus.m-btn.m-btn--pill.m-btn--custom.m-btn--air.m-login__btn.m-login__btn--primary {
+    box-shadow: none !important;
+}
+
+/*Formatando o texto do checkbox*/
+.m-login.m-login--2.m-login-2--skin-1 .m-login__container .m-login__form .m-login__form-sub .m-checkbox {
+    color: #fff;
+}
+
+/*Botão "Esqueceu a senha?"*/
+.m-login.m-login--2.m-login-2--skin-1 .m-login__container .m-login__form .m-login__form-sub .m-link {
+    color: #fff;
+}
+
+/*Botão "Entrar"*/
+.m-login.m-login--2.m-login-2--skin-1 .m-login__container .m-login__form .m-login__form-action .m-login__btn.m-login__btn--primary {
+    border-color: #0f011e;
+    background-color: #0f011e;
+}
+
+/*Botão "Entrar" com hover*/
+.m-login.m-login--2.m-login-2--skin-1 .m-login__container .m-login__form .m-login__form-action .m-login__btn.m-login__btn--primary:hover {
+    border-color: #0f011e;
+}
+
+/*Botão "Cancelar"*/
+.m-login.m-login--2.m-login-2--skin-1 .m-login__container .m-login__form .m-login__form-action .m-login__btn {
+    border-color: #fff;
+    color: #fff;
+}
+
+#m_login_signup_cancel:hover {
+    background-color: rgb(255, 255, 255, 0.1)
+}

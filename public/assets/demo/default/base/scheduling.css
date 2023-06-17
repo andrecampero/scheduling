@@ -1,0 +1,351 @@
+/*
+|----------------------------------------------|
+|
+|               LOGIN
+|
+|----------------------------------------------|
+*/
+
+/*Alterando fundo da página*/
+.fundo-da-pagina {
+    position: absolute;
+    z-index: -10;
+    height: 100%;
+    width: 100%;
+}
+
+/******/
+/*LOGO*/
+/******/
+
+/*Estilizando logo da página*/
+.logo-easy_tracking {
+    width: 350px;
+    height: 100px;
+}
+
+/*Alterando margem do logo*/
+.m-login.m-login--2 .m-login__wrapper .m-login__container .m-login__logo {
+    margin: 0 auto 2rem auto;
+}
+
+/**************/
+/*CAMPOS INPUT*/
+/**************/
+
+/*Estilizando campos de input*/
+.m-login.m-login--2.m-login-2--skin-1 .m-login__container .m-login__form .form-control {
+    color: #636363 !important;
+    background: rgb(211, 211, 211, .5) !important;
+}
+
+/*Alterando a margem do conjunto de campos*/
+.m-login.m-login--2 .m-login__wrapper .m-login__container .m-login__form {
+    margin: 2rem auto;
+}
+
+/*Dimensionando campos de input*/
+.m-login.m-login--2 .m-login__wrapper .m-login__container .m-login__form .m-form__group .form-control {
+    padding: 2rem;
+    border-radius: 40px;
+}
+
+/*******/
+/*LOGIN*/
+/*******/
+/*Alterando tamanho da fonte de "LOGIN"*/
+.m-login.m-login--2 .m-login__wrapper .m-login__container .m-login__head .m-login__title {
+    font-size: 2.5rem;
+}
+
+/*Estilizando "LOGIN"*/
+.m-login.m-login--2.m-login-2--skin-1 .m-login__container .m-login__head .m-login__title {
+    color: #282828;
+    font-weight: 300;
+    /*background-color: #c6c0c0;
+    margin: 0 35%;
+    padding: 10px 0;
+    border-radius: 40px;*/
+    /*text-transform: uppercase;*/
+    /*letter-spacing: 0.25ch;*/
+}
+
+/*Cor de fundo do botão*/
+.m-login.m-login--2.m-login-2--skin-1 .m-login__container .m-login__form .m-login__form-action .m-login__btn.m-login__btn--primary {
+    background-color: #484FA2;
+    border-color: #484FA2;
+}
+
+/*Cor da borda do botão*/
+.m-login.m-login--2.m-login-2--skin-1 .m-login__container .m-login__form .m-login__form-action .m-login__btn.m-login__btn--primary:focus, .m-login.m-login--2.m-login-2--skin-1 .m-login__container .m-login__form .m-login__form-action .m-login__btn.m-login__btn--primary:hover {
+    border-color: #484FA2;
+}
+
+/*Alterando placeholder quando começar a escrever no campo input*/
+input:focus {
+    color: #B78FF0 !important;
+}
+
+/*Diminuindo check box*/
+.m-radio > span, .m-checkbox > span {
+    width: 14px;
+    height: 14px;
+}
+
+/*Aproximando frase de check box*/
+.m-radio, .m-checkbox {
+    padding-left: 20px;
+}
+
+/*Estilizando checkbox após ser clicado*/
+span::after {
+    border: 1.4px solid #B78FF0 !important;
+}
+
+/*Estilizando botão "Cancelar" após "Esqueceu sua senha?"*/
+#m_login_forget_password_cancel {
+    color: #484FA2;
+    border-color: #484FA2;
+    padding-right: 46.5395px;
+    padding-left: 46.5395px;
+}
+
+/*Estilizando hover de botão "Cancelar" após "Esqueceu sua senha?"*/
+#m_login_forget_password_cancel:hover {
+    color: #484FA2;
+    border-color: #484FA2;
+}
+
+/********/
+/*TEXTOS e CHECKBOX*/
+/********/
+/*Cor de "Lembre-se de mim" e "Esqueceu sua senha?"*/
+.m-login.m-login--2.m-login-2--skin-1 .m-login__container .m-login__form .m-login__form-sub .m-checkbox,
+.m-login.m-login--2.m-login-2--skin-1 .m-login__container .m-login__form .m-login__form-sub .m-link,
+.m-login.m-login--2.m-login-2--skin-1 .m-login__container .m-login__account .m-login__account-msg {
+    color: #B78FF0;
+    font-weight: 400;
+    /*letter-spacing: 0.2ch;*/
+    font-size: 1rem;
+    font-family: sans-serif, Arial;
+}
+
+/*
+.m-login.m-login--2 .m-login__wrapper .m-login__container .m-login__form .m-login__form-sub {
+    padding: 0;
+}
+
+.col.m--align-left.m-login__form-left {
+    padding-left: 0;
+}
+
+.col.m--align-right.m-login__form-right {
+    padding-right: 0;
+}
+*/
+
+/*Hover de "Esqueceu sua senha?"*/
+.m-login.m-login--2.m-login-2--skin-1 .m-login__container .m-login__form .m-login__form-sub .m-link:hover {
+    color: #B78FF0;
+}
+
+/*Caixa do checkbox*/
+.m-checkbox.m-checkbox--light > span {
+    border: 1.4px solid #B78FF0;
+}
+
+/*Estilizando solicitação sde e-mail paar resetar senha*/
+.m-login.m-login--2.m-login-2--skin-1 .m-login__container .m-login__head .m-login__desc {
+    color: #B78FF0;
+}
+
+/*
+|-------------------------------------------------|
+|
+|       DASHBOARD
+|
+|--------------------------------------------------|
+
+*/
+
+.logo {
+    width: 150px;
+    height: 40px;
+}
+
+/****************************/
+/*Barra de navegação lateral*/
+/****************************/
+.m-grid__item.m-aside-left.m-aside-left--skin-dark {
+    background-color: rgb(255 255 255);
+}
+
+.m-aside-menu.m-aside-menu--skin-dark.m-aside-menu--submenu-skin-dark {
+    background-color: transparent;
+}
+
+/*Cor do header*/
+.m-header {
+    background: #fff;
+}
+
+.m-stack__item.m-stack__item--fluid.m-header-head {
+    background-color: transparent;
+}
+
+/*Fundo do logo*/
+.m-brand {
+    background: #fff !important;
+}
+
+.m-topbar .m-topbar__nav.m-nav > .m-nav__item:hover, .m-topbar .m-topbar__nav.m-nav > .m-nav__item.m-dropdown--open {
+    background-color: rgb(211, 211, 211, .5);
+}
+
+/*
+|-----------------------------------------------------------------|
+|
+|               FORMULÁRIOS
+|
+|-----------------------------------------------------------------|
+*/
+
+.error {
+    color: rgb(201, 13, 13);
+}
+
+/*
+|----------------------------------------------------------------|
+|
+|           GOOGLE MAPS
+|----------------------------------------------------------------|
+*/
+
+#map {
+    height: 100%;
+}
+
+.modal-dialog {
+    max-width: 650px !important;
+}
+
+/*
+|-----------------------------------------------------------------|
+|
+|       CSS LOADER
+|
+|-----------------------------------------------------------------|
+*/
+
+.lds-dual-ring {
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+}
+
+.lds-dual-ring:after {
+    content: " ";
+    display: block;
+    width: 46px;
+    height: 46px;
+    margin: 1px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    border-color: #716aca transparent #716aca transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+}
+
+@keyframes lds-dual-ring {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.lds-dual-ring-small {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+}
+
+.lds-dual-ring-small:after {
+    content: " ";
+    display: block;
+    width: 28px;
+    height: 28px;
+    margin: 1px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    border-color: #716aca transparent #716aca transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+}
+
+@keyframes lds-dual-ring-small {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/*
+|-----------------------------------------------------------------|
+|
+|       Modal Imagens
+|
+|-----------------------------------------------------------------|
+*/
+
+.btn:focus, .btn:active, button:focus, button:active {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+#image-gallery .modal-footer {
+    display: block;
+}
+
+.thumb {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.modal {
+    text-align: center;
+    padding: 0 !important;
+}
+
+.modal:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -4px;
+}
+
+.modal-dialog {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+    width: 60%;
+}
+
+td.details-control {
+    background: url('../media/img/datatable/details_open.png') no-repeat center center;
+    cursor: pointer;
+    width: 18px;
+}
+
+tr.shown td.details-control {
+    background: url('../media/img/datatable/details_close.png') no-repeat center center;
+}
+.box-address h5{
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 2px solid #4258a4;
+    font-size: 13px;
+    padding: 10px;
+}
